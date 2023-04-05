@@ -1,0 +1,78 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: mistyrose;
+    background-image: url("../images/fon.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: 'Ubuntu', serif;
+    font-size: 48px;
+}
+
+.main-container {
+    width: 350px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: 6px solid #f8a3c6;
+}
+
+.text-anchik {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    color: black;
+    text-decoration: none;
+}
+
+.text-anchik:hover {
+    color: deeppink;
+}
+
+.text-thanks {
+    font-family: 'Tangerine', serif;
+    font-size: 35px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.btn-danger {
+    background-color: #f8a3c6;
+    border-radius: 15px;
+    width: 250px;
+    color: black;
+    border: none;
+    margin-top: 6px;
+}
+
+.btn-danger:hover {
+    background-color: #da759d;
+    border: none;
+    color: black;
+}
+
+.btn-danger:active {
+    background-color: #b93268;
+    border: none;
+    color: black;
+}
+
+.text-simple {
+    font-size: 14px
+}
+
+.program-container {
+    min-width: 350px;
+    max-width: 1200px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: 6px solid #f8a3c6;
+    margin: 60px;
+
+}
+
+@media screen and (max-width: 640px) {
+    iframe {
+        width: 350px;
+        height: 200px;
+    }
+}
