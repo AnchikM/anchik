@@ -745,3 +745,7 @@ p {
 .language-link:active {
     color: #000000;
 }
+
+.dropdown-menu-dark .dropdown-item.active{
+    background-color: #770144;
+}

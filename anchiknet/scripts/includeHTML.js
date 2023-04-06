@@ -98,8 +98,8 @@
                 if (status === "error") {
                     var iframe = document.createElement('iframe');
                     iframe.onload = function () {
-                        if (!response && document.location.protocol.indexOf('http') == -1) { //всё, приехали...
-                            if (navigator.userAgent.match(/Chrome/i) !== -1) //выводим подсказку.
+                        if (!response && document.location.protocol.indexOf('http') == -1) {
+                            if (navigator.userAgent.match(/Chrome/i) !== -1)
                                 msg = 'For Chrome: add parameter in shortcut link:' + "\n" + '"path_chrome_dir\chrome.exe" --allow-file-access-from-files';
                             alert(navigator.userAgent + "\nResponse: " + response + "\nURL: " + src + "\n-------\n" + msg);
                         }
