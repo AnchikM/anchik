@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="icon" type="image/png" href="favicon.png"/>
     <link rel="apple-touch-icon" href="images/apple_favicon.png"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -30,9 +30,37 @@
 <include src="blocks/footer.html"></include>
 <button onclick="topFunction()" id="topBtn" title="Go to top">
     <i class="bi bi-arrow-up-short"></i></button>
+<div class="language">
+    <div class="dropdown">
+        <a class="language-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"
+           id="dropdownMenuLanguage"
+           title="Auto Google Translate"><i class="bi bi-globe"></i></a>
+        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuLanguage">
+            <li>
+                <button class="dropdown-item" type="button" data-google-lang="ru">Russian</button>
+            </li>
+            <li>
+                <button class="dropdown-item" type="button" data-google-lang="en">English</button>
+            </li>
+            <li>
+                <button class="dropdown-item" type="button" data-google-lang="uk">Ukrainian</button>
+            </li>
+            <li>
+                <button class="dropdown-item" type="button" data-google-lang="pl">Polish</button>
+            </li>
+            <li>
+                <button class="dropdown-item" type="button" data-google-lang="es">Spanish</button>
+            </li>
+        </ul>
+    </div>
+</div>
 <script defer src="scripts/backToTop.js"></script>
 <script defer src="scripts/readMore.js"></script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6996943029385890"
         crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="scripts/google-translate.js"></script>
+<script src="//translate.google.com/translate_a/element.js?cb=TranslateInit"></script>
 </body>
 </html>
