@@ -746,6 +746,8 @@ p {
     color: #000000;
 }
 
-.dropdown-menu-dark .dropdown-item.active{
+/*2 times*/
+.dropdown-menu-dark .dropdown-item.active,
+.dropdown-menu-dark .dropdown-item:active {
     background-color: #770144;
 }
