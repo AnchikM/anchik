@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Anchik.net Error 404 - Page not found!</title>
-    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <link type="text/css" rel="stylesheet" href="404style.css"/>
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link rel="apple-touch-icon" href="images/apple_favicon.png"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -16,7 +16,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 <body>
-
+<div class="full">
 <div id="notfound">
     <div class="notfound">
         <div class="notfound-404 mb-4">
@@ -28,6 +28,23 @@
            href="https://anchik.net/">Back to
             Anchik.net</a>
     </div>
-</div>
+</div></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(e){
+        var left = 0,
+            top = 0,
+            element = $('body'),
+            offset =  { left: element.offset().left, top: element.offset().top };
+        $(this).bind('mousemove', function(e){
+            left = (e.pageX-offset.left);
+            top = (e.pageY-offset.top);
+            $('h1').css({
+                backgroundPosition: '-'+(0.15*left)+'px -'+(0.15*top)+'px'
+            });
+        });
+    });
+</script>
 </body>
 </html>
