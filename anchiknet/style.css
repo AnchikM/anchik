@@ -488,6 +488,19 @@ p {
     animation-duration: 2s;
 }
 
+.anchik-text{
+    /*background: linear-gradient(50deg, #cb0073 0%, #ff6262 50%, #ffffff 100%);*/
+    background: linear-gradient(22deg, #ffffff 0%, #ff6262 20%, #cb0073 50%,  #cb0073 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.anchik-text-double{
+    background: linear-gradient(50deg, #cb0073 0%, #ff6262 80%, #ffe9a7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .navbar-nav, .sociallinks_wrapper {
     animation: bounce;
     animation-duration: 2s;
@@ -824,3 +837,39 @@ p {
         transform: scale(1.3);
     }
 }
+
+
+/*.crystal_rose {*/
+/*    border-radius:16px;*/
+/*    background:transparent;*/
+/*    background-image: -webkit-linear-gradient(#cb0073, #ff6262);*/
+/*    background-image: -moz-linear-gradient(#cb0073, #ff6262);*/
+/*    background-image: -o-linear-gradient(#cb0073, #ff6262);*/
+/*    -moz-box-shadow: inset 0px -2px 0 #ff6262;*/
+/*    -webkit-box-shadow: inset 0px -2px 0 #ff6262;*/
+/*    -o-box-shadow: inset 0px -2px 0 #ff6262;*/
+/*    box-shadow: inset 0px -1px 2px #ff6262;*/
+/*}*/
+
+/*.crystal_rose:hover {*/
+/*    background:transparent;*/
+/*    background-image: -webkit-linear-gradient(#cb0073, #ff8c59);*/
+/*    background-image: -moz-linear-gradient(#cb0073, #ff8c59);*/
+/*    background-image: -o-linear-gradient(#cb0073, #ff8c59);*/
+/*    -moz-box-shadow: inset 0px -2px 0 #ff8c59;*/
+/*    -webkit-box-shadow: inset 0px -2px 0 #ff8c59;*/
+/*    -o-box-shadow: inset 0px -2px 0 #ff8c59;*/
+/*    box-shadow: inset 0px -1px 2px #ff8c59;*/
+/*}*/
+
+/*.crystal_rose:before {*/
+/*    content: ".";*/
+/*    color:transparent;*/
+/*    line-height: 16px;*/
+/*    margin: -7px -10px -11px;*/
+/*    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.2) );*/
+/*    background-image:-moz-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.2));*/
+/*    background-image: -o-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.2));*/
+/*    border-radius:16px;*/
+/*    display:block;*/
+/*}*/
