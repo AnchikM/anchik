@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Tangerine");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:400,700,900');
 
 body {
     padding: 0;
@@ -117,8 +116,16 @@ p {
     color: white;
 }
 
-.t-sociallinks_item:hover, .language-link:hover {
+.t-sociallinks_item:hover {
     opacity: 0.7;
+}
+
+.language-link {
+    opacity: 0.5;
+}
+
+.language-link:hover {
+    opacity: 1;
 }
 
 .sociallinks_wrapper {
