@@ -80,7 +80,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 15px 0px;
+    box-shadow: rgba(0, 0, 0, 0) 0 0 15px 0;
 }
 
 #anchik-history-img {
@@ -90,7 +90,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 15px 0px;
+    box-shadow: rgba(0, 0, 0, 0) 0 0 15px 0;
 }
 
 .navbar {
@@ -191,14 +191,6 @@ p {
 .main_banner__title {
     margin-bottom: 40px
 }
-
-.main_banner__descr {
-    /*margin-bottom: 35px*/
-}
-
-/*.main_banner__cover{*/
-/*    background-image: url("images/main_screen.png");*/
-/*}*/
 
 .main_banner__cover-wrap {
     position: absolute;
@@ -350,7 +342,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 15px 0px;
+    box-shadow: rgba(0, 0, 0, 0) 0 0 15px 0;
 }
 
 .btn-rose {
@@ -443,7 +435,7 @@ p {
     opacity: 0.5;
     width: 60px;
     height: 60px;
-    box-shadow: rgb(0 0 0 / 72%) 0px 2px 8px 2px;
+    box-shadow: rgb(0 0 0 / 72%) 0 2px 8px 2px;
 }
 
 .slide-btn:hover {
@@ -747,7 +739,7 @@ p {
         display: block;
     }
 
-    #dotsAboutMe, #dotsHistor, #dotsDev {
+    #dotsAboutMe, #dotsHistory, #dotsDev {
         display: inline;
     }
 }
@@ -783,7 +775,7 @@ p {
     background-color: #770144;
 }
 
-/*slide backgraund*/
+/*slide background*/
 .slideshow {
     width: 100%;
     height: 100%;

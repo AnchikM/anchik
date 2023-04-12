@@ -57,7 +57,7 @@ body {
 }
 
 .text-simple {
-    font-size: 14px
+    font-size: 14px;
 }
 
 .program-container {
@@ -67,7 +67,6 @@ body {
     border-radius: 15px;
     border: 6px solid #f8a3c6;
     margin: 60px;
-
 }
 
 @media screen and (max-width: 640px) {
